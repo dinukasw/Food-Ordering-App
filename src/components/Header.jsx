@@ -1,4 +1,5 @@
 import logoImg from '../assets/logo.jpg'
+import Button from './UI/button'
 
 const Header = () => {
   return (
@@ -8,9 +9,9 @@ const Header = () => {
             <h1>ReactFood</h1>
         </div>
         <nav>
-            <button>
+            <Button textOnly>
                 Cart (0)
-            </button>
+            </Button>
         </nav>
     </header>
   )
